@@ -198,32 +198,53 @@ img {
 }
 
 .engineer__imgAria {
-  width: 60%;
- 
-}
-.engineer__textAria {
-  width: 38%;
-  
+  width: 50%;
 }
 
+.engineer__textAria {
+  width: 50%;
+}  
 
 
 .engineer__item {
- 
   display: flex;
 }
 
+
+.engineer__item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+
 .engineer__text-bg {
-  
   background-color: #fff;
   padding: 40px;
+ 
+  
 }
 
 .engineer__name {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   color: var(--main-color);
+ 
 }
+
+.engineer__text-title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.engineer__text {
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+
+
+
+
+
 
 @media screen and (max-width: 767px) {
   .mv__img {
